@@ -1,6 +1,7 @@
 # depslib dependency file v1.0
-1583985598 source:/home/kevin/Documents/Training/imageProcessing/main.cpp
+1584817508 source:/home/kevin/Documents/Training/imageProcessing/main.cpp
 	<opencv2/opencv.hpp>
+	<opencv2/highgui/highgui.hpp>
 	<iostream>
 	<string>
 
@@ -775,4 +776,6 @@
 
 1580152760 /usr/local/include/opencv2/highgui/highgui.hpp
 	"opencv2/highgui.hpp"
+
+1584817815 source:/home/kevin/Documents/Training/imageProcessing/src/ImageProcessing.cpp
 

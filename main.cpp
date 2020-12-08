@@ -10,24 +10,6 @@
 using namespace cv;
 using namespace std;
 
-void displayImage();
-void displayBlankImage();
-void playVideoFromFile();
-void playVideoFromCamera();
-void saveImageFile(Mat file_image);
-VideoWriter initVideoWriter(VideoCapture video_file);
-void saveVideoFile(VideoWriter v_Writer, Mat frames);
-void changeBrightnessOfImage();
-void changeBrightnessOfVideo();
-void changeContrastOfImage();
-void changeContrastOfVideo();
-void equalizeHistOfImageToGrayscale();
-void equalizeHistOfColorImage();
-void homogeneousBlurOfImage();
-void homogeneousBlurOfVideo();
-void gaussianBlurOfImage();
-void gaussianBlurOfVideo();
-void invertImage();
 
 int main(int argc, char* argv[])
 {
@@ -45,7 +27,6 @@ int main(int argc, char* argv[])
     //homogeneousBlurOfVideo();
     //gaussianBlurOfImage();
     //gaussianBlurOfVideo();
-    invertImage();
 
     return 0;
 }
